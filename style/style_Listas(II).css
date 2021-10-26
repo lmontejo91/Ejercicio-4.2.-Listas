@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Zen+Old+Mincho&display=swap');
+
+body{
+    margin: 10%;
+    font-family: Zen Old Mincho;
+    font-size: 150%;
+}
+
+h1{
+    font-family: Rampart One;
+    color: rgb(14, 61, 88);
+    font-size: 300%;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 8%;
+}
+
+p{
+    text-align: justify;
+}
+
+header p{
+    text-indent: 1cm;
+}
+
+header p::first-line{
+    font-weight: 700;
+    font-variant: small-caps;
+}
+
+header p::first-letter{
+    color:rgb(250, 40, 3);
+    font-size: xx-large;
+}
+
+div p{
+    font-style: italic;
+}
+
+footer p{
+    font-weight: 900;
+}
+
+img{
+    display: block;
+    margin: auto;
+    padding: 1cm;
+    width: 50%;
+    height: 50%;
+}
+
+* em img{
+    border: 10px solid black;
+    margin-top: 1cm;
+}
+
+a{
+    color: #FF6600;
+    font-weight: bold;
+}
+
+p * a{
+    color: rgb(126, 228, 10);
+    font-weight: bold;
+    text-decoration: underline;
+}
